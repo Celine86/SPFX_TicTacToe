@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tic-tac-toe-client-side-solution",
+    "id": "75c553c4-5734-4e90-94ac-5c4319a47772",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TicTacToe description"
+      },
+      "longDescription": {
+        "default": "TicTacToe description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "tic-tac-toe Feature",
+        "description": "The feature that activates elements of the tic-tac-toe solution.",
+        "id": "cfe6319f-3a9b-4d60-9ef9-90bbc5de7eaa",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tic-tac-toe.sppkg"
+  }
+}
